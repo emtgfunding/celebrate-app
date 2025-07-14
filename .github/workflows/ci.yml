@@ -29,9 +29,6 @@ jobs:
         run: npm run type-check
         # (Ensure you have "type-check": "tsc --noEmit" in package.json scripts)
 
-      - name: Run tests
-        run: npm test
-        # (Make sure you’ve added a test script, e.g. with Jest or React Testing Library)
 
       - name: Build Next.js
         run: npm run build

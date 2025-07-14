@@ -6,8 +6,8 @@
     "dev": "next dev --turbopack",
     "start": "next start",
     "lint": "next lint"
-    "type-check": "tsc --noEmit",        // if using TypeScript
-    "test": "jest",                       // or your chosen test runner
+    "type-check": "tsc --noEmit",        
+    "test": "jest",                       
     "build": "next build"
   },
   "dependencies": {
